@@ -1,15 +1,47 @@
 {
   "name": "wamya",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "This is a simple utility package",
+  "author": "Marouen Mhiri",
+  "license": "MIT",
+  "homepage": "www.marouen-mhiri.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marujah/wamya.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marujah/wamya/issues"
+  },
+  "keywords": ["state management", "localStorage", "events", "micro-frontend", "web components"],
   "type": "module",
+  "main": "./dist/wamya.umd.cjs",
+  "module": "./dist/wamya.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/wamya.js",
+      "require": "./dist/wamya.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@types/node": "^20.8.7",
+    "@vitest/coverage-v8": "^0.34.6",
+    "i": "^0.3.7",
+    "jsdom": "^22.1.0",
+    "npm": "^10.2.1",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.0",
+    "vitest": "^0.34.6"
   }
 }
