@@ -4,10 +4,41 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/demo/cart.ts"></script>
+    <script type="module" src="/src/demo/toggle.ts"></script>
+    <script type="module" src="/src/demo/headline.ts"></script>
     <title>Vite + TS</title>
+    <style>
+      html, body {
+        padding: 0;
+        margin: 0;
+      }
+      header {
+        box-shadow: 0px 1px 5px rgb(152, 152, 152);
+        height: 40px;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      }
+      main {
+        padding: 1rem;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/demo/index.ts"></script>
+    <div id="app">
+        <header>
+          <m2-cart></m2-cart>
+        </header>
+        <main>
+          <m2-headline></m2-headline>
+          <m2-toggle name="Product 1" leftColor="red" rightColor="green" size="medium" ></m2-toggle>
+          <m2-toggle name="Product 2" leftColor="red" rightColor="green" size="medium" ></m2-toggle>
+          <m2-toggle name="Product 3" leftColor="red" rightColor="green" size="medium" ></m2-toggle>
+          <m2-toggle name="Product 4" leftColor="red" rightColor="green" size="medium" ></m2-toggle>
+        </main>
+      </div>
+    </div>
   </body>
 </html>
