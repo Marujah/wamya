@@ -1,6 +1,6 @@
 {
   "name": "wamya",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a simple utility package",
   "author": "Marouen Mhiri",
   "license": "MIT",
@@ -12,7 +12,13 @@
   "bugs": {
     "url": "https://github.com/marujah/wamya/issues"
   },
-  "keywords": ["state management", "localStorage", "events", "micro-frontend", "web components"],
+  "keywords": [
+    "state management",
+    "localStorage",
+    "events",
+    "micro-frontend",
+    "web components"
+  ],
   "type": "module",
   "main": "./dist/wamya.umd.cjs",
   "module": "./dist/wamya.js",
