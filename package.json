@@ -33,7 +33,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": " https://www.npmjs.org/doc/package.json.html#publishConfig"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "dev": "vite",
