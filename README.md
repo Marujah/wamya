@@ -91,4 +91,4 @@ userStateManager.setState({
 
 ## License
 
-This library is released under the MIT License. Please check the LICENSE file for more details.
+This library is released under the APACHE-2.0 License. Please check the [LICENSE](LICENSE) file for more details.
