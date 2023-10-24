@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "description": "This is a simple utility package",
   "author": "Marouen Mhiri",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "homepage": "www.marouen-mhiri.com",
   "repository": {
     "type": "git",
