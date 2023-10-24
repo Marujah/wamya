@@ -32,6 +32,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": " https://www.npmjs.org/doc/package.json.html#publishConfig"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
